@@ -11,7 +11,7 @@ public:
 
 	}
 	void displaydata( ) {
-		if (marks < 0 &&  marks > 100) { // to tackle the invalid state 
+		if (marks < 0 ||  marks > 100) { // to tackle the invalid state 
 			cout << " Enter correct marks.";
 		}
 		else {
